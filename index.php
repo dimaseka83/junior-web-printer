@@ -6,8 +6,7 @@
     <title>Printer</title>
 </head>
 <body>
-    <h2>Printer</h2>
-    <table>
+    <table border="1">
         <tr>
             <th>No</th>
             <th>Nama Merek</th>

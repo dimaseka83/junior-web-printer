@@ -18,13 +18,18 @@
         <input type="text" name="warna" id="warna">
         <br>
         <label for="">Jumlah</label>
-        <input type="text" name="jumlah" id="jumlah">
+        <input type="number" name="jumlah" id="jumlah">
         <br>
         <button type="submit">Simpan</button>
         <br>
         <button type="reset">ulangi</button>
         <br>
-        <a href="index.php">Kembali</a>
+        <button type="button" onclick="back();">Kembali</button>
     </form>
 </body>
 </html>
+<script>
+    const back = () => {
+        window.location.href = "index.php";
+    }
+</script>
